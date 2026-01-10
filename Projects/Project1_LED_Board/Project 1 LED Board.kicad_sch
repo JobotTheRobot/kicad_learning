@@ -776,6 +776,36 @@
 		)
 		(uuid "f7036d9d-39ba-401f-806f-bd5ab554a389")
 	)
+	(label "bat_pos"
+		(at 63.5 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c4574d6-9b72-4d81-be92-405b8b3a768f")
+	)
+	(label "LED_anode"
+		(at 48.26 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b14cf43-5c95-44e3-aef2-e62dcc5c90e1")
+	)
+	(label "LED_cathode"
+		(at 35.56 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef156a03-d27d-4b5d-956c-bebbfa0b43dc")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 54.61 50.8 90)
