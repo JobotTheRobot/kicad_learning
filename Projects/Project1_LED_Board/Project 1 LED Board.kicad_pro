@@ -25,7 +25,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "missing_unit|685800|508000|a4991077-8778-420e-9b4d-39bf6bbe21d2|00000000-0000-0000-0000-000000000000|/1c33ef57-caf7-421d-915f-e0a80c990133|/1c33ef57-caf7-421d-915f-e0a80c990133|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
