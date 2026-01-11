@@ -696,6 +696,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 22.225 37.465)
+		(end 85.725 78.105)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 59b555ba-b1cd-41a1-9bea-c41444e9ebda)
+	)
+	(text "LED Board"
+		(exclude_from_sim no)
+		(at 27.432 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74098b3e-92dc-49fc-8c5e-459a12d566e4")
+	)
 	(wire
 		(pts
 			(xy 78.74 50.8) (xy 73.66 50.8)
@@ -814,7 +836,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "199e0094-6bf6-4579-af39-7424348f8bf6")
 		(property "Reference" "R1"
 			(at 54.61 44.45 90)
@@ -833,12 +854,11 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 54.61 52.578 90)
+			(at 54.61 58.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -882,7 +902,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a4991077-8778-420e-9b4d-39bf6bbe21d2")
 		(property "Reference" "SW1"
 			(at 68.58 44.45 0)
@@ -901,12 +920,11 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
-			(at 68.58 50.8 0)
+			(at 82.042 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -956,7 +974,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be4a63b9-abd2-4e11-b091-533c552ff68c")
 		(property "Reference" "BT1"
 			(at 55.1815 62.23 90)
@@ -975,12 +992,11 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_1058_1x2032"
-			(at 54.864 69.85 90)
+			(at 54.356 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -1051,7 +1067,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb612e81-1c87-46bc-a2bc-8f892bbbee53")
 		(property "Reference" "D1"
 			(at 39.0525 44.45 0)
@@ -1070,12 +1085,11 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 40.64 50.8 0)
+			(at 35.306 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
